@@ -3,7 +3,7 @@
 """
 Created on Sat Aug 21 09:16:29 2021
 
-@author: baodong
+
 """
 import os
 
@@ -39,7 +39,7 @@ class Supermarket:
         return f'current time is {hour:02}:{min:02}:00'
         
 
-     def print_customers(self):
+    def print_customers(self):
         
         """print all customers with the current time and id in CSV format.
         """
